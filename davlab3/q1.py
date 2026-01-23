@@ -1,0 +1,10 @@
+import numpy as np
+arr = np.random.randint(1, 51, size=(3, 4))
+print("Array:\n", arr)
+print("Mean:", np.mean(arr))
+print("Median:", np.median(arr))
+print("Standard Deviation:", np.std(arr))
+print("Sum of all elements:", np.sum(arr))
+print("Sum of each row:", np.sum(arr, axis=1))
+reshaped = arr.reshape(2, 6)
+print("Reshaped (2x6):\n", reshaped)
